@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML ELEMENTS AND FORMS</title>
+    </head>
+    <body>
+        <h1>Html Lists</h1>
+        <h3>Ordered Lists</h3>
+        <ol type="i">
+            <li>Mangoes</li>
+            <li>Bananas</li>
+            <li>Kiwi</li>
+            <li>Avocado</li>
+            <li>Strawberry</li>
+            <li>Tomatoes</li>
+        </ol>
+        <h1>Html Pexel</h1>
+        <img src="Mountain.jpg" alt="image of a mountan" width="450" height="550">
+        <h1>HTML Table</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Mobile</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Esther</td>
+                    <td>Mombasa</td>
+                    <td>0702379506</td>
+                    <td>taicywaturi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Melvin</td>
+                    <td>Nairobi</td>
+                    <td>0745955778</td>
+                    <td>melvinmasiga@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Florence</td>
+                    <td>Mombasa</td>
+                    <td>0725487689</td>
+                    <td>florence@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Diannah</td>
+                    <td>Watamu</td>
+                    <td>0712345678</td>
+                    <td>diannah@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Andrew</td>
+                    <td>Nyeri</td>
+                    <td>0113456839</td>
+                    <td>andrew@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <h1>Html Registration form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="name" id="student_name" name="student_name" required>
+            <br><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" id="gender" name="gender" value="female">Female
+            <input type="radio" id="gender" name="gender" value="male">male
+            <br><br>
+            <label for="level of education">Level of Education:</label>
+            <input type="checkbox" name="level of education" value="undergraduate"> Undergraduate
+            <input type="checkbox" name="level of education" value="vocational"> Vocational
+            <input type="checkbox" name="level of education" value="postgraduate"> Postgraduate
+            <input type="checkbox" name="level of education" value="highschool diploma">Highschool diploma
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Create a password" required minlength="6">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br><br>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option>--Select Country--</option>
+                <option value="Nigeria">Nigeria</option>
+                <option value="Kenya">Kenya</option>
+                <option value="South Africa">South Africa</option>
+            </select>
+            <br><br>
+            <button>Register</button>
+            <input type="button" value="Cancel">
+        </form>
+    </body>
+</html>
